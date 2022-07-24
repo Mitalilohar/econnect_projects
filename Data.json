@@ -1,0 +1,30 @@
+{
+  "Ledger": {
+    "url": "",
+    "Ledger Name":{
+      "Value": "Bank Ledger",
+      "Type": "Text value",
+      "Locator": ""
+    },
+    "Cost Centers": {
+      "Value": "No",
+      "Type": "Dropdown",
+      "Locator": "//select[@id='Is_CostCenter']"
+    },
+    "Ledger Code": {
+      "Value": "303030",
+      "Type": "Text value",
+      "Locator": ""
+    },
+     "Ledger Group": {
+      "Value": "303030",
+      "Type": "Dropdown searchable",
+      "Locator": {
+        "Locator1": "xpath://*[@id=\"s2id_LedgerType\"]/a/span",
+        "Locator2": "//div[@id='select2-drop']//div[@class='select2-search']//input[@type='text']"
+
+      }
+      }
+    }
+  }
+}
